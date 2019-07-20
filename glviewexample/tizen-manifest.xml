@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4.0" package="org.example.glviewexample" version="1.0.0">
+    <profile name="mobile"/>
+    <ui-application appid="org.example.glviewexample" exec="glviewexample" hw-acceleration="on" launch_mode="single" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>glviewexample</label>
+        <icon>glviewexample.png</icon>
+    </ui-application>
+</manifest>
