@@ -1,0 +1,11 @@
+APPNAME = openes_particalsystem
+
+type = app
+profile = mobile-4.0
+
+USER_SRCS = src/openes_particalsystem.c
+USER_DEFS =
+USER_INC_DIRS = inc
+USER_OBJS =
+USER_LIBS =
+USER_EDCS =
