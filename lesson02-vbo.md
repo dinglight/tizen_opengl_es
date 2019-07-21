@@ -101,23 +101,4 @@ static void draw_glview(Evas_Object *obj)
 	glDisableVertexAttribArray(0);
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
 }
-
-/*
- * @brief Drawing function of GLView
- * @param[in] obj GLView object
- */
-static void draw_glview(Evas_Object *obj)
-{
-	appdata_s *ad = evas_object_data_get(obj, "ad");
-
-	// Clear the color buffer
-	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-	// Use the program object
-	glUseProgram(ad->program);
-
-	//DrawWithoutVBOs();
-	DrawWithVBOs(ad);
-}
 ```
